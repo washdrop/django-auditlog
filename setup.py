@@ -11,6 +11,7 @@ setup(
     description='Audit log app for Django',
     install_requires=[
         'django-jsonfield>=1.0.0',
+        'django-jsonfield-compat==0.4.4',
         'python-dateutil==2.6.0'
     ],
     zip_safe=False,
@@ -22,5 +23,5 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'License :: OSI Approved :: MIT License',
-    ],        
+    ],
 )
