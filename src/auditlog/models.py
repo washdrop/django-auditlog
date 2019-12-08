@@ -140,7 +140,6 @@ class LogEntryManager(models.Manager):
         return pk
 
 
-@python_2_unicode_compatible
 class LogEntry(models.Model):
     """
     Represents an entry in the audit log. The content type is saved along with the textual and numeric (if available)
