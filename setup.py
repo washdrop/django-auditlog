@@ -10,9 +10,7 @@ setup(
     author='Jan-Jelle Kester',
     description='Audit log app for Django',
     install_requires=[
-        'django-jsonfield>=1.0.0',
-        'django-jsonfield-compat==0.4.4',
-        'python-dateutil==2.6.0'
+        'python-dateutil>=2.6.0'
     ],
     zip_safe=False,
     classifiers=[
